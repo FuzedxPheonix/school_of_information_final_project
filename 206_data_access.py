@@ -443,7 +443,8 @@ class PartOne(unittest.TestCase):
 class PartTwo(unittest.TestCase):
 	# Testing whether the class movie exsits 
 	def test1(self):
-		movie_class = Movie()
+		movie_class = Movie({"ij":"1"})
+
 
 		class ClassName(object):
 			def __init__(self):
